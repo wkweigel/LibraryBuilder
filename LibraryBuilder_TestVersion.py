@@ -467,7 +467,7 @@ col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
 
 with col1:
     with st.container():
-        st.subheader("# Specify Valencies...")
+        st.markdowm("#### Specify Valencies...")
         if n_BBs=='2':
             BB1_valence= st.selectbox('BB1 Valence:', ['choose...', 'BB1-monovalent', 'BB1-divalent', 'BB1-trivalent'])
             BB2_valence= st.selectbox('BB2 Valence:', ['choose...', 'BB2-monovalent', 'BB2-divalent', 'BB2-trivalent'])
