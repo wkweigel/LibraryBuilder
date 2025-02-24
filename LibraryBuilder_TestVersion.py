@@ -463,7 +463,7 @@ if "pill_BBs" not in st.session_state:
     st.session_state["pill_BBs"] = []  # Track selected BBs with pills input
 
 # The columns for horizontal input
-col1, col2, col3, col4 = st.columns([0.4, 0.5, 0.6, 2])
+col1, col2, col3, col4 = st.columns([1, 1, 1, 3])
 
 with col1:
     with st.container():
