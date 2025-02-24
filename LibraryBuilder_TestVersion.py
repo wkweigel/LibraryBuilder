@@ -467,7 +467,7 @@ col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
 
 with col1:
     with st.container():
-        st.subheader("Specify Valencies...")
+        st.subheader("# Specify Valencies...")
         if n_BBs=='2':
             BB1_valence= st.selectbox('BB1 Valence:', ['choose...', 'BB1-monovalent', 'BB1-divalent', 'BB1-trivalent'])
             BB2_valence= st.selectbox('BB2 Valence:', ['choose...', 'BB2-monovalent', 'BB2-divalent', 'BB2-trivalent'])
@@ -482,7 +482,7 @@ with col1:
             BB4_valence= st.selectbox('BB4 Valence:', ['choose...', 'BB4-monovalent', 'BB4-divalent', 'BB4-trivalent'])
 
 with col2:
-    st.subheader("Specify Reactive Handles...")
+    st.subheader("## Specify Reactive Handles...")
     if BB1_valence != 'choose...':
         st.subheader("BB1 Reactivities:")
         DEL.Nodes, DEL.Edges = show_valence_options(DEL, DEL.BB1, BB1_valence)
