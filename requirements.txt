@@ -3,3 +3,4 @@ networkx
 matplotlib
 numpy
 pyvis
+streamlit_extras
